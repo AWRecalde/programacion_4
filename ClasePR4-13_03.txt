@@ -1,0 +1,82 @@
+Documentacion - 13/03/2024
+Creacion de un proyecto android llamado: Primera vista
+
+app -> manifests -> AndroidManifest.xml
+Lo que necesita el programador, (Aqui se guarda el nombre de la aplicacion)
+
+
+Carpeta res -> guardar imagenes, archivos xml, 
+
+
+layaout -> activity_main.xml (Ajustar posicion)
+
+mimmap -> default el muñequito de android
+
+
+Ppt pagina 34
+Existe una serie de elementos clave que resultan
+imprescindibles para desarrollar aplicaciones en Android:
+❖ Vista (View)
+   Elementos que componen la interfaz de usuario de una aplicacion
+   Todas las vistas son objetos descendientes de la clase view, pueden ser definidas utilizando java
+   Lo habitual es definir las vistas utilizando fichero XML, y dejar que el sistema cree los objetos
+❖ Layout
+   Conjunto de vistas agrupadas de determinada forma, el layaout es basicamente el contenedor, las vistas
+   van obtenidas dentro de ese layaout. Tambien son definidas de la clase view
+❖ Actividad (Activity). 
+   La actividad siempre, va conectada con el layaout, una actividad va ligada con un layout
+   Su objetivo es crear la logica y la interaccion del usuario con la aplicacion
+❖ Servicio (Service)
+   Un servicio es un proceso que se ejecuta detras, sin una necesidad de una interaccion con el usuario.
+   Es un componente que puede realizar operaciones de larga ejecucion en segundo plano y que no proporciona una
+   interfaz de usuario
+❖ Intención (Intent)
+   Representa la voluntad de realizar alguna accion como realizar una llamada de telefono, visualisar una pagina web
+   Los componentes lanzados pueden ser internos o externos a la aplicacion.
+❖ Fragment
+   La llegada de las tabletas, trajo el problema que las aplicaciones android deben soportar pantallas mas grandes.
+   Para ayudar a resolver este problema la version 3.0 android aparecen los fragments. Un fragment esta formado
+   por la union de varias vristas para crear un bloque funcional de la interfaz de usuario.
+❖ Receptor de anuncios (Broadcast Receiver)
+   Un receptor de anuncios recibe anuncios de broadcast y reacciona ante ellos. Ejemplo bateria baja del celular o el
+   screenshot, no disponen de interfaz aunque pueden iniciar una actividad.
+❖ Proveedores de contenido (Content Provider)
+   En muchas ocasasiones las aplicaciones instaladas necesitan compartir informacion. Con este mecanismo puermite acceder a la
+   lista de datos, otras aplicaciones, ejemplo: lista de contactos, galeria, multimedia, etc.
+
+Hoy, terminamos unidad 1
+███████████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████████
+
+Tarea en clase, creo un nuevo proyecto, llamar: Mis lugares
+Con la configuracion normal como solemos hacer
+
+En project, abrir formato Android (esquina superior izquierda)
+Android -> app -> kotlin + java -> 
+Crear un nuevo paquete llamado: clases
+En ese paquete crear una clase llamada GeoPunto, Lugar
+                         y una clase tipo Enum TipoLugar
+
+(codigos en gitHub)
+
+Luego, abrir -> res -> drawable -> (Copiar todas las imagenes que el profe puso en unidad 2
+Unidad 2 -> Imagenes (descargar) copiar y pegar en drawable, te tiene que aparecer, normal
+Despues la clase geoPunto
+
+Hacemos unos cambios mas, importamos paquetes y pasamos a unidad 2
+
+
+En esta unidad trabajaremos en la carpeta layout
+Es posible crear una interfaz de usuario con codigo , pero es mejor usar las herramientas para la interfaz
+de usuario. 
+
+Nosotros, siempre trabajaremos con el XML 
+
+
+
+
+
+
+
+
+
