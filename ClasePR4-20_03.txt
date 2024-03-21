@@ -1,0 +1,49 @@
+
+20/03/2024
+Hoy trabajamos con res -> layaout -> activity_main.xml
+Trabajamos sobre el proyecto anterior Mis lugares
+
+En el palette se elige las objetos y es drag and drop
+
+En la izquierda, se acomoda los Attributes (Design de forma grafica, Code de forma con codigo)
+
+En los atributos a la izquierda
+
+margin: margen, para la diferencia entre margenes de los objetos
+gravity: para centrar el widget, en un lugar especifico de la pantalla
+distribute weights evenly: espacio del texto, 
+
+El profe recomienda usar 1, para nivel visual
+
+Text: para escribir adentro
+
+Buscador -> size -> textSize 16sp
+Algunos son dp y otros son sp
+
+Para poner todo en el centro: Panel principal -> gravity -> Center
+! Ordena todo en el medio
+
+
+Creamos una nueva vista en res -> new -> new activity -> empty views activity -> nombre (normal)
+En el layaout name, le quitamos el activity y queda asi: ejemplo:
+Activity Name: EntradaTexto, layaout Name: activity_main2
+
+Estuvimos trabajando todo este tiempo sobre, Primera Vista, pero no me di cuenta, asi que trabaje sobre MisLugares
+Damos unidad 2, layaout
+
+En activity main, es donde se selecciona la pantalla para ver ejemplo: 
+override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.main2)
+    }
+en R.layaout.() se apunta al layaout
+
+alt + enter para cambiar el dimen
+
+Si anotamos un dimen string hay que buscar en strings.xml
+
+
+
+
+
+

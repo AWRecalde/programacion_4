@@ -1,18 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen30"
     tools:context=".MainActivity">
 
-    <TextView
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_gravity="center|top"
+        android:layout_margin="20dp"
+        android:layout_weight="0"
+        android:checked="false"
+        android:paddingEnd="20dp"
+        android:text="@string/registrar"
+        android:textOff="ON" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_gravity="center|top"
+        android:layout_margin="20dp"
+        android:layout_weight="0"
+        android:checked="true"
+        android:gravity="center"
+        android:paddingEnd="20dp"
+        android:text="@string/acerca"
+        android:textSize="16sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_margin="20dp"
+        android:layout_weight="0"
+        android:paddingEnd="20dp"
+        android:progress="50" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="center|top"
+        android:layout_margin="20dp"
+        android:numStars="5"
+        android:paddingEnd="20dp"
+        android:progress="0"
+        android:rating="2.5"
+        android:stepSize="0.5" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
