@@ -1,0 +1,46 @@
+Clase del 03/04/2024
+
+Hoy es un parcialito, la semana pasada no hubo clase por semana santa
+
+Vemos Unidad 2. a partir de 2.6 Recursos alternativos
+
+Hoy el profesor, nos enseañara a hacer un diseño para horizontal
+Crear un diseño para que muestre de manera horizontal
+
+layaout -> click derecho -> new layaout resource fike -> (llamarse igualito al que ya tenemos)
+-> orientation -> landscape
+
+Se abre una carpetita, hay estan los 2 diseños,
+
+En el codigo borramos y dejamos:
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</TableLayout>
+
+
+Para expotar el archivo
+Main Menu -> Export -> Export to zip FIle Here -> Y ubico la ubicacion
+
+
+Crear otro xml
+layaout -> click derecho -> layaout resert file -> (nombre de clase)
+
+En el codigo del nuevo xml, debe ser asi:
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+</LinearLayout> 
+
+
+
+
+
+
+

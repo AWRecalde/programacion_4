@@ -12,6 +12,7 @@
 
     <Button
         android:id="@+id/bMostrar"
+        style="@style/EstiloBoton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="@dimen/dimen30"
@@ -19,6 +20,7 @@
 
     <Button
         android:id="@+id/bRegistrar"
+        style="@style/EstiloBoton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/registrar_lugar" />
@@ -26,6 +28,7 @@
 
     <Button
         android:id="@+id/bAcerca"
+        style="@style/EstiloBoton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
@@ -33,7 +36,9 @@
 
     <Button
         android:id="@+id/bSalir"
+        style="@style/EstiloBoton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/salir_lugar" />
+        android:text="@android:string/cancel" />
+        <!--android:text="Cancelar" /> -->
 </LinearLayout>
