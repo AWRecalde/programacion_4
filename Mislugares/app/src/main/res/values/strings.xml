@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">Mis lugares</string>
     <string name="registrar">Registrar</string>
-    <string name="acerca">Acerca\n</string>
+    <string name="acerca">Acerca\n
+       Este programa ha sido desarrollado como ejemplo para demostrar como se pueden lanzar nuevas
+        actividades desde la actividad principal
+    </string>
     <string name="mostrar_lugares">mostrar lugares</string>
     <string name="registrar_lugar">Registrar lugar\n</string>
     <string name="acerca_lugar">Acerca lugar\n</string>

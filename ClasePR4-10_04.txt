@@ -1,0 +1,30 @@
+Hoy terminamos unidad 2
+En MIS LUGARES
+
+trabajamos con estos archivos:
+main2.xml y main2.xml
+
+Para hacer uno horizontal es asi:
+layout -> (click derecho) -> New Layout Resource FILE (nombre igual al que te basas,
+ejemplo main_activity a main_activity)
+En Avaialble qualifiers: Orientation -> Portrait = Landscape 
+Asi ya tenemos version vertical
+
+-------------------------------------------------------------
+Luego creamos un nuevo proyecto llamado: 
+Mis Lugares
+Descargamos unas imagenes de recursos del profe de unidad 2: 3 imagenes de botones y
+Imagenes de otra carpeta (10)
+
+Tenemos un boton.xml donde configuramos elboton
+El activity_buton es la clase xml que hacemos
+
+------------------------------------------------------
+Volvemos a mis vistas y hacemos una nueva actividad
+Empezamos la Unidad 3
+El Main Activity inica solo, pero si creo unan ueva actividad, debe llamar desde el Main
+Activity principal
+
+Creamos un New Activity llamado acerca en layaout ese crea automaticamente el Activity Acerca en
+columbia.edu.py.mislugares
+
